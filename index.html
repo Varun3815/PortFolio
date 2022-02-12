@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/Logo.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css"
+      integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g=="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Zen+Kurenaido&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.bundle.min.js"
+      integrity="sha512-mULnawDVcCnsk9a4aG1QLZZ6rcce/jSzEGqUkeOLy0b6q0+T6syHrxlsAGH7ZVoqC93Pd0lBqd6WguPWih7VHA=="
+      crossorigin="anonymous"
+    ></script>
+    <title>Varun Kothari</title>
+  </head>
+  <body>
+    <!-- HEADER SECTION START-->
+    <header>
+      <div class="nav-wrap">
+        <a href="#"><img class="logo" src="images/Logo.svg" alt="LOGO" /></a>
+        <ul class="nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#skill">My Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <!--MAIN SECTION START-->
+    <main>
+      <!-- SECTION ONE START-->
+      <div class="container section-1">
+        <div class="content-wrap">
+          <h1>
+            <span class="title">Hello, my name is</span>Varun Kothari
+            <span class="sub-heading">I build things for web</span>
+          </h1>
+          <div class="break"></div>
+          <p class="cta-btn"><a href="#">Get in touch</a></p>
+        </div>
+      </div>
+      <!--SECTION TWO START-->
+      <div class="section-2 container" id="about">
+        <div class="content">
+          <h2 class="sub-heading">About Me</h2>
+          <p class="content-text">
+            I am an enthusiastic learner who learns from the mistakes and want
+            to learn about more about technologies around us and wants to become
+            good in my field
+          </p>
+        </div>
+      </div>
+
+      <div class="section-3 container" id="project">
+        <div>
+          <h2 class="sub-heading">Projects</h2>
+          <div class="content-wrap">
+            <div class="content-card">one</div>
+            <div class="content-card">two</div>
+            <div class="content-card">three</div>
+            <div class="content-card">one</div>
+            <div class="content-card">two</div>
+            <div class="content-card">three</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-4 container" id="skill">
+        <div>
+          <h2 class="sub-heading">My Skills</h2>
+        </div>
+      </div>
+
+      <div class="section-5 container" id="contact">
+        <div>
+          <h2 class="sub-heading">Contact</h2>
+          <div class="contact-wrap">
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <div class="con-info">
+                    <h2><u>Contact Us</u></h2>
+                    <p class="text">
+                      We are open for any suggesion or just for chat
+                    </p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="my-form">
+                    <form>
+                      <h2>Send us a message</h2>
+                      <div>
+                        <label for="name">Name</label>
+                        <input
+                          type="text"
+                          id="name"
+                          name="name"
+                          placeholder="Your name.."
+                        />
+                      </div>
+                      <div>
+                        <label for="email">Email</label>
+                        <input
+                          type="email"
+                          id="email"
+                          name="email"
+                          placeholder="Your email.."
+                        />
+                      </div>
+                      <div>
+                        <label for="subject">Subject</label>
+                        <textarea
+                          id="subject"
+                          name="subject"
+                          placeholder="Write something.."
+                          style="height: 200px"
+                        ></textarea>
+                      </div>
+                      <input type="submit" value="Submit" />
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
